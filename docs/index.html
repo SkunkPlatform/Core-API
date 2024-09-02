@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreAPI Documentation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to your CSS file -->
+    <script defer src="app.js"></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>CoreAPI Documentation</h1>
+    </header>
+    
+    <main>
+        <section id="api-requests">
+            <h2>API Requests</h2>
+            <form id="api-form">
+                <label for="endpoint">API Endpoint:</label>
+                <input type="text" id="endpoint" name="endpoint" placeholder="https://api.example.com/resource" required>
+                
+                <label for="method">Request Method:</label>
+                <select id="method" name="method" required>
+                    <option value="GET">GET</option>
+                    <option value="POST">POST</option>
+                    <option value="PUT">PUT</option>
+                    <option value="DELETE">DELETE</option>
+                </select>
+                
+                <label for="data">Request Data:</label>
+                <textarea id="data" name="data" rows="4" placeholder='{"key": "value"}'></textarea>
+                
+                <button type="submit">Send Request</button>
+            </form>
+            
+            <section id="response">
+                <h3>Response:</h3>
+                <pre id="response-output"></pre>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 CoreAPI Documentation</p>
+    </footer>
+</body>
+</html>
