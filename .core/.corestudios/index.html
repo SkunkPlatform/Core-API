@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Studios</title>
+    <style>
+        .title-logo {
+            display: flex;
+        }
+
+        div.buttons {
+            display:flex;
+        }
+
+        .btn-image_1 {
+    width: 50px;
+    height: 50px;
+    padding: 0; /* Remove any default padding */
+    border: none; /* Remove any default border */
+    background: none; /* Remove any default background */
+    overflow: hidden; /* Ensure the image does not overflow the button */
+    transition: width 0.3s, height 0.3s, content 0.3s; /* Add transition for smooth scaling */
+}
+
+.btn-image_1:hover {
+    border: none; /* Remove any default border */
+    background: none; /* Remove any default background */
+    overflow: hidden; /* Ensure the image does not overflow the button */
+}
+
+.btn-image_1 img {
+    max-width: 100%; /* Limit the maximum width of the image to 100% of its container */
+    max-height: 100%; /* Limit the maximum height of the image to 100% of its container */
+    width: auto; /* Allow the image to adjust its width while keeping aspect ratio */
+    height: auto; /* Allow the image to adjust its height while keeping aspect ratio */
+    display: block; /* Ensures the image respects the container's dimensions */
+}
+.btn-image_1 img:hover {
+    content: url('images/btn-logo_hover.png');
+}
+
+.btn-image_1 img:active {
+    content: url('images/btn-logo_active.png');
+}
+
+.btn-image_1-low:hover {
+    border: none; /* Remove any default border */
+    background: none; /* Remove any default background */
+    overflow: hidden; /* Ensure the image does not overflow the button */
+}
+
+.btn-image_1-low img {
+    max-width: 100%; /* Limit the maximum width of the image to 100% of its container */
+    max-height: 100%; /* Limit the maximum height of the image to 100% of its container */
+    width: auto; /* Allow the image to adjust its width while keeping aspect ratio */
+    height: auto; /* Allow the image to adjust its height while keeping aspect ratio */
+    display: block; /* Ensures the image respects the container's dimensions */
+}
+.btn-image_1-low img:hover {
+    content: url('images/btn-logo_hover-low.png');
+}
+
+.btn-image_1-low img:active {
+    content: url('images/btn-logo_active-low.png');
+}
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0f0f0, #d9d9d9);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 0px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <b><p class="title-logo">Core Studios - Corporation</p></b>
+        <div class="buttons">
+            <p>Items:</p>
+            <button id="mediafire">MF</button>
+            <button id="help-btn">Help</button>
+            <button id="settings-btn">Settings</button>
+        </div>
+    </div>
+    <div class="container" id="menu">
+        <button class="btn-image_1" id="core-btn"><img src="images/btn-logo.png" alt="" id="image-1"></button>
+        <p>Core-API made for <b>Version: 1.4.4-1.4.9</b></p>
+        <button id="api-download">Download core.js for Core-API with JavaScript</button>
+        <button id="btn-versions">Core-API Versions</button>
+        <button id="btn-corporation">Core Corporation</button>
+        <button id="btn-tut">Core-API Tutorials</button>
+        <div id="corp" style="display: none;">
+            <p>Core Corporation:</p>
+            Core Corporation is a Core for the Sourcing by using the control() <br>
+            The Core Studios is a Core by the Community made Emoji Cat Yellow <br>
+            Core-API for Website is can control on website from Website Console, this Core-API will be secure
+        </div>
+        <div id="tut" style="display: none;">
+            <p>You can be sourced from control() or any functions</p><br>
+            The Core-API is a Tools for Website.<br>
+            Core-API was Created by SkunkPlatform.<br>
+            Core-API Ulitity with api.local.js:<br>
+            pcausa(target, url) <br>
+            scanmediafire() <br>
+            api() <br>
+            skunkplatform() <br>
+            skunkplatformHelp() <br>
+            deactivateConsole() <br>
+            activateConsole() <br>--<br>
+            Core-API Utility with api.js:<br>
+            control(type, value1, value2) <br>
+            vscodeRun() <br>
+            helpSkunkPlatform() <br>
+            infoCoreAPI() <br>
+            verify(webname) <br>
+            The control() there are more items: <br>
+            -> type: <br>
+            |__ help <br>
+            |__ reset <br>
+            |__ addelement (Value1: element-name, Value2: JSON ElementInfo) <br>
+            |__ support <br>
+            |__ open-core <br>
+            |__ search-website <br>
+            |__ lol <br>
+            |__ ping <br>
+            |__ need-more <br>
+            |__ work <br>
+            |__ claim-work <br>
+            |__ balance <br>
+            |__ info-shop (Value1: Item Name) <br>
+            |__ buy (Value1: Item Name) <br>
+        </div>
+        <div id="box-versions" style="display: none;">
+            <p>How to close? - Just press the button by Core-API Versions to close</p>
+            <p>Core-API Version: v1.5.3 (Long Upcoming)</p>
+            <p>Core-API Version: v1.5.2 (Too Upcoming)</p>
+            <p>Core-API Version: v1.5 (Very Still Upcoming)</p>
+            <p>Core-API Version: v1.4.9 (Still Upcoming)</p>
+            <p>Core-API Version: v1.4.8 (Very Upcoming)</p>
+            <p>Core-API Version: v1.4.7 (Upcoming)</p>
+            <p>Core-API Version: v1.4.6 (Little Upcoming)</p>
+            <p>Core-API Version: v1.4.5 (Available Now in Core-API for 1.4.5, Released with: Core-API v1.4.5 PR-1)</p>
+            <p>Core-API Version: v1.4.4 (Bug Fixes and Safety for Core-API by Node.js)</p>
+            <p>Core-API Version: v1.4.3 (Verified on 1.3-1.4)</p>
+            <p>Core-API Version: v1.3.1 (Verified on 1.3)</p>
+            <p>Core-API Version: v1.2 (Old Version)</p>
+            <p>Core-API Version: v1.1 (Old Version)</p>
+            <p>Core-API Version: v1.0 (Has been released on 3/May/2024)</p>
+        </div>
+    </div>
+    <div class="container" id="help" style="display: none;">
+        <button id="goto-menu">Go to Menu</button>
+        <p>Core Studios is a programming for JavaScript, Core-API has made the Tools for your Website Console</p>
+        <p>You want to Feedback?</p>
+        <p>Join in the Discord Server:</p>
+        <button id="join-server">Join</button>
+    </div>
+    <div class="container" id="settings" style="display: none;">
+        <button id="goto-menu1">Go to Menu</button>
+        <select name="quality" id="quality-select">
+            <option value="normal">Medium Graphic</option>
+            <option value="low">Low Graphic</option>
+        </select>
+        <label for="quality-select">Graphic Textures</label>
+        <button id="send-feedback">Feedback</button>
+        <div class="container" id="feedback" style="display: none;">
+            <input type="text" name="feedback" id="feedback-input" placeholder="Write the Feedback">
+            <button id=""></button>
+        </div>
+    </div>
+    <div style="position: absolute; width: 5000%; height: 5000%; display: none; z-index: 10;" id="alert-1">
+        <div class="container" id="alert-box">
+            <p id="alert-name">Are you sure?</p>
+            <button id="alert-yes1">Yes</button>
+            <button id="alert-no1">No</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Core Studios. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="core.js"></script>
+</body>
+</html>
