@@ -1,0 +1,8 @@
+{
+    "name": "Core Studios",
+    "version": "1.4.5, PRE-1, LP-1",
+    "isCorporation": true,
+    "apis": ["api.js","api.local.js","skunkplatform.js"],
+    "type": "terminal/console/website",
+    "version-old": "1.1"
+}
