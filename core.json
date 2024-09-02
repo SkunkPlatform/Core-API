@@ -1,0 +1,10 @@
+{
+    "name": "Core Studios",
+    "tool": "Core-API",
+    "version": "1.4.5, (PRE-1)",
+    "modules": ["api.js","core.js","skunkplatform.js","api.local.js"],
+    "permissions": ["api.js","skunkplatform.js","api.local.js"],
+    "safe": ["api.js","api.local.js"],
+    "images": ["icon.png", "shield.png"],
+    "protectpath": "./assets/ⓅⓇⓄⓉⒺⒸⓉ.json"
+}

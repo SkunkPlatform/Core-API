@@ -1,0 +1,34 @@
+{
+    "clients": [
+        {
+            "id": 1,
+            "name": "Security (Webhook)",
+            "url": "https://discord.com/api/webhooks/1250654655122374789/88zSqd1Gdxph8ul8k2xaiiEEUyjOSdWqlg6Oslxi90pPEmlNc7ogl57DS6N8jAtMA2Yi",
+            "description": null,
+            "type": "Discord Server",
+            "channel": "#moderator-only"
+        },
+        {
+            "id": 2,
+            "name": "Ro-Bot (Webhook)",
+            "url": "https://discord.com/api/webhooks/1207463180746625054/PJsRlnN1JE4uvbW3fP_IoUr3t-hPyeyay7PulEtWLQxJeU-pVf4nwv_WtRRD2uPP9PHB",
+            "description": null,
+            "type": "Discord Server",
+            "channel": "#announcement"
+        },
+        {
+            "id": 3,
+            "name": "Core Plugins",
+            "url": null,
+            "description": "Core Plugins is for the Plugin likes a Coding & Programmer. You can manage from Plugins and Adds from the Plugin",
+            "type": "Plugin 6 Code",
+            "channel": null
+        }
+    ],
+    "client": 0.1,
+    "clientpro": 0.5,
+    "name": "Core-API: Clients",
+    "description": "Core-API: Clients is a Client of the Plugins and Tools. ",
+    "version": "Core-API v1.4.5, PRE-1",
+    "oldversion": "Core-API v1.1"
+}
