@@ -23,5 +23,5 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             responseOutput.textContent = `Error: ${error.message}`;
         }
-    });
+    }); // javascript
 });
